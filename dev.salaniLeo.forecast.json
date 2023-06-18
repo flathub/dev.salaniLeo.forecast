@@ -21,7 +21,6 @@
     ],
     "modules": [
   	"data/dependencies/python3-requests.json",
-  	"data/dependencies/python3-pytz.json",
         {
             "name": "forecast",
             "buildsystem": "meson",
@@ -29,9 +28,12 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/SalaniLeo/Forecast",
-                    "tag" : "0.1.0",
-                    "commit" : "17f1fe8d12b7060317718bfbf74dbe923d08bf95"
+                    "tag" : "0.2",
+                    "commit" : "89c9e4745b0022c7f6c1f36a8d4bebdb345f4d70"
                 }
+            ],
+            "dependencies": [
+                "python3-requests"
             ]
         }
     ]
