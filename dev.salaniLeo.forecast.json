@@ -1,7 +1,7 @@
 {
     "app-id": "dev.salaniLeo.forecast",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "44",
+    "runtime-version": "46",
     "sdk": "org.gnome.Sdk",
     "command": "forecast",
     "finish-args": [
@@ -28,8 +28,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/SalaniLeo/Forecast",
-                    "tag" : "0.2.2",
-                    "commit" : "fe511e0fa6c92b10b187cfb8256e68d28e5959dc"
+                    "tag" : "1.0.0",
+                    "commit" : "13860b830d538481f330f6b25100d7ef697cf32e"
                 }
             ],
             "dependencies": [
