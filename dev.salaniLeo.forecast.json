@@ -32,10 +32,11 @@
                     "commit" : "a275a142d11328dc5de8f828d0f5b8e388fbf8c4"
                 }
             ],
-            "build-commands": [
-                "echo 'API_KEY=${API_KEY}' >> .env",
-                "source .env"
-            ],
+            "build-options": {
+                "env": {
+                    "WEATHER_TOKEN": "fe717eebc0eb0b5d9a534b6f6146bc15"
+                }
+            },
             "dependencies": [
                 "python3-requests"
             ]
