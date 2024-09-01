@@ -34,7 +34,7 @@
             ],
             "build-commands": [
                 "echo 'API_KEY=${API_KEY}' >> .env",
-                "source .env",
+                "source .env"
             ],
             "dependencies": [
                 "python3-requests"
