@@ -29,14 +29,9 @@
                     "type" : "git",
                     "url" : "https://github.com/SalaniLeo/Forecast",
                     "tag" : "1.1.0",
-                    "commit" : "a275a142d11328dc5de8f828d0f5b8e388fbf8c4"
+                    "commit" : "19fa2576047c67083ca331e9ae1d5aaed2f10dc6"
                 }
             ],
-            "build-options": {
-                "env": {
-                    "WEATHER_TOKEN": "fe717eebc0eb0b5d9a534b6f6146bc15"
-                }
-            },
             "dependencies": [
                 "python3-requests"
             ]
