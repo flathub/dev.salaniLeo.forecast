@@ -28,8 +28,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/SalaniLeo/Forecast",
-                    "tag" : "1.1.0",
-                    "commit" : "19fa2576047c67083ca331e9ae1d5aaed2f10dc6"
+                    "tag" : "1.1.1",
+                    "commit" : "2369085837c920dc07fac7af4d71ab89ab3d94c4"
                 }
             ],
             "dependencies": [
