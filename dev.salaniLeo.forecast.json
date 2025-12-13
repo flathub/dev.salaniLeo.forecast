@@ -20,7 +20,7 @@
         "*.a"
     ],
     "modules": [
-  	"data/dependencies/python3-requests.json",
+        "data/dependencies/python3-requests.json",
         {
             "name": "forecast",
             "buildsystem": "meson",
@@ -31,9 +31,6 @@
                     "tag" : "1.1.1",
                     "commit" : "7552add8dbb622f15c8d8f7e3f5d3c51a983f06d"
                 }
-            ],
-            "dependencies": [
-                "python3-requests"
             ]
         }
     ]
